@@ -32,7 +32,7 @@ public function store(Request $request)
     $validated = $request->validate([
         'name'  => 'required|string|max:50',
         'phone' => 'required|string|max:20',
-        'email' => 'required|email|unique:guests,email'
+        'email' => 'required|email|max:50|unique:guests,email'
     ]);
 
     
