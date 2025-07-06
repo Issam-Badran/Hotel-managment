@@ -17,3 +17,5 @@ Route::apiResource('guests', GuestController::class);
 // Route::patch('/guests/{id}', [GuestController::class, 'update']);
 
 // Route::delete('/guests/{id}', [GuestController::class, 'destroy']);
+
+// A comment by Abdallah
